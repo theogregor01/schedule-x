@@ -36,6 +36,7 @@ const formatRules = {
 }
 
 export const dateFormatLocalizedRules = new Map<string, DateFormatRule>([
+  ['bg-BG', formatRules.periodDMY],
   ['ca-ES', formatRules.slashDMY],
   ['cs-CZ', formatRules.periodDMY],
   ['da-DK', formatRules.periodDMY],

@@ -70,6 +70,8 @@ import { roRO } from './locales/ro-RO'
 import { datePickerRoRO } from './locales/ro-RO/date-picker'
 import { faIR } from './locales/fa-IR'
 import { datePickerFaIR } from './locales/fa-IR/date-picker'
+import { bgBG } from './locales/bg-BG'
+import { datePickerBgBG } from './locales/bg-BG/date-picker'
 
 import { translate } from './translator/translate'
 import { mergeLocales } from './utils/merge-locales'
@@ -113,6 +115,7 @@ const translations = {
   roRO,
   faIR,
   arEG,
+  bgBG,
 }
 
 const datePickerTranslations = {
@@ -153,6 +156,7 @@ const datePickerTranslations = {
   heIL: datePickerHeIL,
   faIR: datePickerFaIR,
   arEG: datePickerArEG,
+  bgBG: datePickerBgBG,
 }
 
 export {
@@ -196,4 +200,5 @@ export {
   heIL,
   faIR,
   arEG,
+  bgBG,
 }
